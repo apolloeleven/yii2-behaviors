@@ -4,7 +4,7 @@
 #### Global Page Cache Behavior
 
 Following behavior gives you the ability to enable Yii2 PageCache globally 
-from config. Example: 
+from config. Copy the following config to your respective config file. 
 ```php
 ...
 'as globalCache' => [

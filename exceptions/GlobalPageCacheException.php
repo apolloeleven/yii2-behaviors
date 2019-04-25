@@ -7,7 +7,7 @@
  * @author Saiat Kalbiev <kalbievich11@gmail.com>
  */
 
-namespace apollo11\yii2GlobalBehaviors\exceptions;
+namespace apollo11\behaviors\exceptions;
 
 
 class GlobalPageCacheException extends \Exception

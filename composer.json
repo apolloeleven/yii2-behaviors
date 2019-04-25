@@ -17,7 +17,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "apollo11\\yii2GlobalBehaviors\\": ""
+      "apollo11\\behaviors\\": ""
     }
   },
   "require": {

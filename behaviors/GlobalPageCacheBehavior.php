@@ -1,8 +1,8 @@
 <?php
 
-namespace apollo11\yii2GlobalBehaviors\behaviors;
+namespace apollo11\behaviors\behaviors;
 
-use apollo11\yii2GlobalBehaviors\exceptions\GlobalPageCacheException;
+use apollo11\behaviors\exceptions\GlobalPageCacheException;
 use yii\base\Behavior;
 use yii\base\Controller;
 use Yii;

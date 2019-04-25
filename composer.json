@@ -1,14 +1,14 @@
 {
   "name": "apollo11/yii2-global-behaviors",
-  "description": "Collection of global helper behaviours for Yii2 Framework",
+  "description": "Collection of global helper behaviors for Yii2 Framework",
   "keywords": [
     "yii2",
-    "behaviour",
-    "global-behaviour"
+    "behavior",
+    "global-behavior"
   ],
   "type": "library",
   "minimum-stability": "dev",
-  "homepage": "https://github.com/apolloeleven/yii2-global-behaviours",
+  "homepage": "https://github.com/apolloeleven/yii2-global-behaviors",
   "authors": [
     {
       "name": "Saiat Kalbiev",

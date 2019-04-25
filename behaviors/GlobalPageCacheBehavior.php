@@ -1,8 +1,8 @@
 <?php
 
-namespace apollo11\yii2GlobalBehaviours\behaviours;
+namespace apollo11\yii2GlobalBehaviors\behaviors;
 
-use apollo11\yii2GlobalBehaviours\exceptions\GlobalPageCacheException;
+use apollo11\yii2GlobalBehaviors\exceptions\GlobalPageCacheException;
 use yii\base\Behavior;
 use yii\base\Controller;
 use Yii;
@@ -11,7 +11,7 @@ use Yii;
  * Class GlobalCacheBehavior
  * @package common\behaviors
  */
-class GlobalPageCacheBehaviour extends Behavior
+class GlobalPageCacheBehavior extends Behavior
 {
 
     const VARIATION_BY_LANGUAGE = 'variation_by_language';
@@ -127,7 +127,7 @@ class GlobalPageCacheBehaviour extends Behavior
     {
         $variations = $this->generateVariations($rule);
 
-        Yii::$app->controller->attachBehavior('pageCacheBehaviour', [
+        Yii::$app->controller->attachBehavior('pageCacheBehavior', [
             'class' => 'yii\filters\PageCache',
             'duration' => $this->duration,
             'variations' => $variations

@@ -1,5 +1,5 @@
 {
-  "name": "apollo11/yii2-global-behaviours",
+  "name": "apollo11/yii2-global-behaviors",
   "description": "Collection of global helper behaviours for Yii2 Framework",
   "keywords": [
     "yii2",
@@ -17,7 +17,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "apollo11\\yii2GlobalBehaviours\\": ""
+      "apollo11\\yii2GlobalBehaviors\\": ""
     }
   },
   "require": {

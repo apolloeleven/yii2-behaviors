@@ -1,0 +1,26 @@
+{
+  "name": "apollo11/yii2-global-behaviours",
+  "description": "Collection of global helper behaviours for Yii2 Framework",
+  "keywords": [
+    "yii2",
+    "behaviour",
+    "global-behaviour"
+  ],
+  "type": "library",
+  "minimum-stability": "dev",
+  "homepage": "https://github.com/apolloeleven/yii2-global-behaviours",
+  "authors": [
+    {
+      "name": "Saiat Kalbiev",
+      "email": "kalbievich11@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "apollo11\\yii2GlobalBehaviours\\": ""
+    }
+  },
+  "require": {
+    "composer/composer": ">=1.6.3"
+  }
+}
